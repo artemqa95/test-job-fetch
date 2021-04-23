@@ -1,0 +1,19 @@
+.Pagination {
+    margin-top: 35px;
+}
+
+.Pagination span {
+    padding: 10px;
+    background: #e2ead0;
+    margin: 0 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Pagination span:hover {
+    background: #ffbd04;
+}
+
+.Pagination span.active {
+    background: #3aff04;
+}

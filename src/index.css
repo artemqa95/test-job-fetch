@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.Layout main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.Auth, .Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  flex-grow: 1;
+  width: 100%;
+  background: linear-gradient(270deg, #cef2fa 0%, #59bfef 100%);
+}
+
+.Auth > div {
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.Auth h1 {
+  color: #fff;
+}
+
+.AuthForm {
+  background: #eee;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.Table {
+  border: 2px solid #a88c8c;
+  background: #000000;
+  box-shadow: 5px 2px 2px rgba(0,0,0, .5);
+  border-radius: 5px;
+}
+
+.Table tr:hover {
+  background: #ffbd04;
+  cursor: pointer;
+}
+
+.Table tr:hover > td {
+  color: black;
+}
+
+.Table th {
+  background: #f8d89e;
+  padding: 5px;
+  border: 1px solid #e8e0e0;
+}
+
+.Table td {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #eee8e8;
+  color: #abb1ab;
+}
